@@ -7,7 +7,7 @@ def crazy_strings(a,b)
   a=a.reverse.upcase
   b=b.swapcase(s, Z)
   
-  return a+b
+  puts a+b
 end
 
-puts crazy_strings(a, b)
+crazy_strings(a, b)
