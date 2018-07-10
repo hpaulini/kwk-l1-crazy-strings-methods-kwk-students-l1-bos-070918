@@ -5,7 +5,7 @@ def crazy_strings(a,b)
   b = gets.chomp
   
   a=a.reverse.upcase
-  b=b.gsub("s", "z")
+  b=b.swapcase.gsub("s", "z")
   
   a+" "+b
 end
