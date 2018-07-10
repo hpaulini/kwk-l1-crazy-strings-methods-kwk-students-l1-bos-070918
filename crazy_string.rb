@@ -4,5 +4,5 @@ def crazy_strings(a,b)
   a = gets.chomp
   b = gets.chomp
   
-  return 
+  return a+b
 end
