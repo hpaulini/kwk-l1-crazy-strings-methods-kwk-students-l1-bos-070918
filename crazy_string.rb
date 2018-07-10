@@ -7,7 +7,7 @@ def crazy_strings(a,b)
   a=a.reverse.upcase
   b=b.gsub(s, z)
   
-  puts a+b
+  return "a+b"
 end
 
-crazy_strings(a, b)
+puts crazy_strings(a, b)
