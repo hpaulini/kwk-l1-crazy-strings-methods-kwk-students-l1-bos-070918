@@ -9,3 +9,5 @@ def crazy_strings(a,b)
   
   return a+b
 end
+
+puts crazy_strings(a+b)
